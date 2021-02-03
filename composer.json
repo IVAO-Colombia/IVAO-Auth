@@ -1,5 +1,5 @@
 {
-  "name": "ivao-brasil/ivao-socialite",
+  "name": "ivao-colombia/ivao-auth",
   "description": "A Laravel Socialite Provider for IVAO",
   "type": "library",
   "license": "MIT",
@@ -7,6 +7,10 @@
     {
       "name": "IVAO Brasil",
       "email": "br-web@ivao.aero"
+    },
+    {
+      "name": "IVAO Colombia",
+      "email": "co-web@ivao.aero"
     }
   ],
   "require": {
