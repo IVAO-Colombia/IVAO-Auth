@@ -22,7 +22,7 @@ class UserDataHttpClient
         if ($token === 'error') {
             throw new DomainNotAllowedException();
         }
-        
+
         $response = $this->http->request("GET", self::IVAO_LOGIN_API_URL, [
             'query' => [
                 "token" => $token,

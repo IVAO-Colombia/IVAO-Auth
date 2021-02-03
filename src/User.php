@@ -58,7 +58,8 @@ class User implements \Laravel\Socialite\Contracts\User, ArrayAccess
         return null;
     }
 
-    public function getRaw() {
+    public function getRaw()
+    {
         return $this->raw;
     }
 
